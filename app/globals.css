@@ -106,7 +106,7 @@ button {
 }
 .site-header.is-solid {
   --header-h: 4.25rem;
-  background: rgb(250 247 240 / 0.82);
+  background: rgb(250 247 240 / 0.94);
   backdrop-filter: saturate(1.6) blur(16px);
   -webkit-backdrop-filter: saturate(1.6) blur(16px);
   color: var(--ink);
@@ -1633,7 +1633,7 @@ h2 {
     font-size: 1.1rem;
   }
   .comparison {
-    aspect-ratio: 4 / 4;
+    aspect-ratio: 5 / 4;
   }
   .comparison-tag {
     top: 0.9rem;

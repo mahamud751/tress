@@ -27,4 +27,4 @@ The form validates required fields and optional JPG/PNG/HEIC photos up to 10 MB.
 
 `public/images/stump-removal-hero.png` was reconstructed using the built-in imagegen tool. Prompt: extract the reference's wide hero photograph, remove all overlaid text and interface elements, preserve the gardener, orange helmet, yellow Vermeer grinder, garden, lighting and composition, and inpaint the dark garden behind the removed text. This reconstruction is visually close, but is not the original source photograph.
 
-Typography uses Roboto from Google Fonts with local Arial/Helvetica fallbacks.
+Typography uses Bricolage Grotesque (headings) and Inter (body), self-hosted via `next/font/google` in `app/layout.tsx`.
