@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Inter } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const display = Bricolage_Grotesque({
+const display = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-display",
@@ -15,9 +15,9 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mad About Trees | Stump Removal & Grinding",
+  title: "Mad About Trees | Professional Tree Care & Felling Specialists",
   description:
-    "Professional stump removal. A fresh start for your garden. Our compact stump grinders fit through most garden gates. Get a free quote from Mad About Trees.",
+    "Tree care, tree felling and stump grinding. Speak to Stephen about the work you need and arrange a free, no-obligation quote from Mad About Trees.",
 };
 
 export default function RootLayout({
